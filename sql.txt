@@ -1,0 +1,15 @@
+#Users is name of table
+#insert SQL
+INSERT INTO Users (name, email) VALUES ('Sally', 'a1@umich.edu')
+
+#delete SQL
+DELETE FROM Users WHERE email='ted@umich.edu'
+
+#update name or something else
+UPDATE Users SET name='yusra' WHERE email ='csev@umich.edu' 
+
+#to select fron table
+SELECT *FROM Users
+SELECT *FROM Users WHERE email='csev@umich.edu' 
+SELECT * from Users ORDER BY email
+SELECT * from  Users ORDER BY name DESC
